@@ -1,0 +1,30 @@
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+
+}
+
+.nav{ 
+    margin-left: 3rem;
+    margin-right: 5rem;
+    position: fixed;
+}
+
+.body{
+    flex: 1;
+    margin-right: 3rem;
+    margin-left: 20rem;
+    margin-top: auto;
+    margin-bottom: -4px;
+}
+
+.error{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}

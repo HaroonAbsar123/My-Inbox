@@ -1,0 +1,8 @@
+.no-underline {
+    text-decoration: none;
+  }
+  
+
+.active{
+    opacity: 80%;
+}

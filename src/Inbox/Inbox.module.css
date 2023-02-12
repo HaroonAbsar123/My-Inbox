@@ -1,0 +1,69 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.nameContainer{
+    font-size: large;
+    font-weight: bold;
+    /* margin-right: 20px; */
+    /* padding: 1px; */
+    background: linear-gradient(90deg, rgba(224,224,224,1) 0%, rgba(224,224,224,1) 74%, rgba(245,245,245,1) 100%);
+    color: rgb(44, 44, 44);
+    /* border-radius: 0.15cm; */
+    border-top-left-radius: 0.15cm;
+    border-bottom-left-radius: 0.15cm;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    min-width: 10rem;
+    }
+
+.messageContainer{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    color: rgb(53, 53, 53);
+    padding: 10px;
+    flex: 1;
+}
+
+.readContainer{
+    background: linear-gradient(270deg, rgba(224,224,224,1) 0%, rgba(228,228,228,1) 50%, rgba(245,245,245,1) 100%);
+    border-top-right-radius: 0.15cm;
+    border-bottom-right-radius: 0.15cm;
+    padding: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 40;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+}
+
+
+.mainCard{
+    background-color: #ffff	;
+    padding: 0.1rem;
+}
+
+.secondaryCard{
+    background-color:  rgb(245, 245, 245);
+    padding: 0rem
+}
+
+
+.section {
+    transition: all 0.3s ease-out;
+  }
+  
+  .section:hover {
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
